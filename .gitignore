@@ -1,0 +1,36 @@
+# Composer
+/vendor/
+composer.lock
+
+# PHPStorm
+.idea/
+
+# MacOS
+.DS_Store
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log
+
+# Cache
+/.phpunit.result.cache
+
+# PHPUnit
+/tests/_output/
+tests/_bootstrap.php
+
+# IDE config files
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Ignore any environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore compiled files
+*.phar
