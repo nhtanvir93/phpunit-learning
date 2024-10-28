@@ -18,5 +18,4 @@ class AnimalTest extends TestCase
         $this->expectException(Exception::class);
         $this->assertEquals('Meaw', $animalMock->makeSound());
     }
-}.
-+
+}
