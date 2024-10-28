@@ -15,7 +15,7 @@ class AnimalTest extends TestCase
             ->method('makeSound')
             ->will($this->throwException(new \Exception('Can not make sound')));
 
-        // $this->expectException(Exception::class);
+        $this->expectException(Exception::class);
         $this->assertEquals('Meaw', $animalMock->makeSound());
     }
 }
